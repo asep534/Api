@@ -34,7 +34,7 @@
     "maker": [
       {
         "name": "Brat Generator",
-        "endpoint": "/api/maker/brat",
+        "endpoint": "/api/maker/brat_hd",
         "filename": "brat_hd",
         "method": "GET",
         "params": [
