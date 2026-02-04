@@ -32,20 +32,33 @@
       }
     ],
     "maker": [
+  {
+    "name": "Brat Style Generator",
+    "endpoint": "/api/maker/brat",
+    "filename": "brat",
+    "method": "GET",
+    "params": [
       {
-        "name": "Brat Generator",
-        "endpoint": "/api/maker/brat",
-        "filename": "brat",
-        "method": "GET",
-        "params": [
-          {
-            "name": "text",
-            "required": true,
-            "description": "Text"
-          }
-        ]
+        "name": "text",
+        "required": true,
+        "description": "Text to convert to Brat style"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Brat HD Style Generator",
+    "endpoint": "/api/maker/brathd",
+    "filename": "brathd",
+    "method": "GET",
+    "params": [
+      {
+        "name": "text",
+        "required": true,
+        "description": "Text to convert to Brat HD style"
+      }
+    ]
+  }
+]
     "random": [
       {
         "name": "Random Waifu",
