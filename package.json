@@ -1,5 +1,5 @@
 {
-  "name": "kuroneko",
+  "name": "Wekoapi",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "start": "node dist/index.js",
   "dev": "ts-node index.ts",
   "dev:watch": "nodemon --exec ts-node index.ts",
-  "pm2": "pm2 start index.ts --name kuroneko --interpreter node --node-args=\"-r ts-node/register\" && pm2 save"
+  "pm2": "pm2 start index.ts --name Wekoapi --interpreter node --node-args=\"-r ts-node/register\" && pm2 save"
   },
   "dependencies": {
     "axios": "^1.6.0",
