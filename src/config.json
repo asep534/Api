@@ -54,6 +54,13 @@
         "method": "GET",
         "params": []
       }
+      {
+        "name": "Random Neko",
+        "endpoint": "/api/random/neko",
+        "filename": "neko",
+        "method": "GET",
+        "params": []
+      }
     ],
     "tools": [
        {
