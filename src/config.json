@@ -34,21 +34,8 @@
     "maker": [
       {
         "name": "Brat Generator",
-        "endpoint": "/api/maker/brat_hd",
-        "filename": "brat_hd",
-        "method": "GET",
-        "params": [
-          {
-            "name": "text",
-            "required": true,
-            "description": "Text"
-          }
-        ]
-      },
-      {
-        "name": "Brathd Generator",
-        "endpoint": "/api/maker/brat_hd",
-        "filename": "brat_hd",
+        "endpoint": "/api/maker/brat",
+        "filename": "brat",
         "method": "GET",
         "params": [
           {
