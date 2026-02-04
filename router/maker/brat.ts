@@ -12,7 +12,7 @@ export default async function bratHandler(req: Request, res: Response) {
     }
 
     try {
-        const url = `https://api-faa.my.id/faa/brathd?text=${encodeURIComponent(text)}`;
+        const url = `https://brat.siputzx.my.id/image?text=${encodeURIComponent(text)}`;
         const response = await axios.get(url, {
             responseType: 'arraybuffer',
             headers: {
