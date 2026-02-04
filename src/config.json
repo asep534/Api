@@ -1,7 +1,7 @@
 {
   "settings": {
-    "creator": "Weko",
-    "apiName": "WekoApi",
+    "creator": "Danzz",
+    "apiName": "KuroNeko",
     "description": "A free and reliable API service designed for modern application development. Built with Node.js and TypeScript, delivering fast performance, stable endpoints, and easy integration.",
     "apiVersion": "v1.0",
     "visitors": "0",
@@ -32,33 +32,33 @@
       }
     ],
     "maker": [
-  {
-    "name": "Brat Style Generator",
-    "endpoint": "/api/maker/brat",
-    "filename": "brat",
-    "method": "GET",
-    "params": [
       {
-        "name": "text",
-        "required": true,
-        "description": "Text to convert to Brat style"
-      }
-    ]
-  },
-  {
-    "name": "Brat HD Style Generator",
-    "endpoint": "/api/maker/brathd",
-    "filename": "brathd",
-    "method": "GET",
-    "params": [
+        "name": "Brat Generator",
+        "endpoint": "/api/maker/brat",
+        "filename": "brat",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Text"
+          }
+        ]
+      },
       {
-        "name": "text",
-        "required": true,
-        "description": "Text to convert to Brat HD style"
+        "name": "Brathd Generator",
+        "endpoint": "/api/maker/brathd",
+        "filename": "brathd",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Text"
+          }
+        ]
       }
-    ]
-  }
-]
+    ],
     "random": [
       {
         "name": "Random Waifu",
