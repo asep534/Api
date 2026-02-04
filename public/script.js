@@ -130,7 +130,7 @@ async function kuroneko(config) {
     
     const prompt = document.createElement('span');
     prompt.className = "text-green-500 font-bold mr-2";
-    prompt.innerHTML = "root@danzz~$";
+    prompt.innerHTML = "root@weko~$";
     
     const inputCmd = document.createElement('span');
     inputCmd.className = "text-gray-200 font-mono relative";
